@@ -37,7 +37,7 @@ setup(name='audioread',
       packages=['audioread'],
 
       tests_require=[
-          'pytest-runner',
+          'pytest-runner<5.3.0',
           'pytest'
       ],
 
